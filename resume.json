@@ -1,0 +1,231 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Rodrigo Menezes",
+    "label": "Site Reliability Engineer",
+    "image": "",
+    "email": "recruiters@rodrigomenezes.com",
+    "url": "rodrigomenezes.com",
+    "summary": "Rodrigo was born in Brazil and relocated to US when he was 14. He is a Site Reliability Engineer with 10+ years of Linux Systems Administration experience. Comfortable in start-ups and established enterprises alike. Intensive hands-on experience with leading-edge DevOps tooling. Excellent communication skills, works well on a team or as a sole contributor.",
+    "location": {
+        "countryCode": "US",
+        "address": "United States"
+    },
+    "profiles": [
+        {
+            "network": "LinkedIn",
+            "username": "rdrgmnzs",
+            "url": "https://www.linkedin.com/in/rdrgmnzs/"
+        },
+        {
+            "network": "LinkedIn",
+            "username": "rdrgmnzs",
+            "url": "https://www.linkedin.com/in/rdrgmnzs/"
+        },
+        {
+            "network": "Twitter",
+            "username": "rdrgmnzs",
+            "url": "https://twitter.com/rdrgmnzs"
+        }
+    ]
+  },
+  "work": [
+    {
+      "name": "Pinterest",
+      "position": "Site Reliability Engineer",
+      "startDate": "2017-03-31",
+      "endDate": "2022-01-31",
+      "highlights": [],
+      "summary": "•\tWorked with a team to create the infrastructure required to migrate most stateless services to Docker.\n•\tBuilt Kubernetes as a scalable shared infrastructure to ease the infrastructure operational burden of developers.\n•\tContinuously working with the k8s team to provide a stable and up-to-date k8s platform. Performing multiple software version updates of the platform and supporting tools with no downtime to the users.\n•\tSetup continuous e2e integration testing infrastructure for k8s, ensuring that k8s is well tested and continues to function as expected while changes and upgrades are made to it.\n•\tDesigned and implemented chaos engineering for k8s, allowing both users and the k8s team to ensure applications on-boarding meet the requirements set by k8s.\n•\tBecame one of the owners and major contributors of the OSS project Kops which is part of the Kubernetes org, ensuring Pinterest needs are met by the project as well as giving back to the OSS community.\n•\tInterviewing, guiding and training new hires during their on boarding process.",
+      "url": "https://www.linkedin.com/company/pinterest/",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "name": "Pinterest",
+      "position": "Site Reliability Engineer ( Contract )",
+      "startDate": "2016-09-30",
+      "endDate": "2017-03-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/pinterest/",
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "Robert Half Technology",
+      "position": "SRE - Robert Half Technology SPS",
+      "startDate": "2016-09-30",
+      "endDate": "2017-03-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/robert-half-international/",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "name": "Castle Global, Inc.",
+      "position": "DevOps Engineer",
+      "startDate": "2016-03-31",
+      "endDate": "2016-09-30",
+      "highlights": [],
+      "summary": "•\tScaled Kiwi app to accommodate an increase of 5 million users over the course of 1 week. Scaled Plaza app from 100 to 5,000 daily users. Scaled Chatous app from 1,000 to 5,000 daily users.\n•\tBuilt new CI/CD infrastructure which doubled previous deployment rate. Automated release testing suite and increased testing capacity.\n•\tConfiguration, deployment, and automation with Chef.\n•\tManages environment 95% built on Docker, running on Mesos.\n•\tMigrated hosted AWS environment to in-house data center.\n•\tMonitoring and alerting with Sensu and PagerDuty.\n•\tUtilized Jenkins for CI process reorganization.\n•\tDeploys Cassandra and MySQL clusters.\n•\tPerforms sharding, master/slave replication within MySQL.\n•\tStatistics gathering with Sensu and Grafana.",
+      "url": "",
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "LiveVox",
+      "position": "Linux Systems Engineer",
+      "startDate": "2014-04-30",
+      "endDate": "2016-03-31",
+      "highlights": [],
+      "summary": "•\tSupported Java devs, QA teams, and interfaced directly with customers.\n•\tDeployed Katello/Foreman to greatly speed up server deployment times from 4 hours to 10 minutes. \n•\tCleaned up Puppet environment, used it for configuration, deployment, and automation of tasks.\n•\tDeployed Cassandra and MySQL clusters.\n•\tVirtualization with XenSever.\n•\tManaged AWS CloudFormation deployments.",
+      "url": "https://www.linkedin.com/company/livevox/",
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "Livescribe Inc.",
+      "position": "System Administrator",
+      "startDate": "2013-11-30",
+      "endDate": "2014-04-30",
+      "highlights": [],
+      "summary": "•\tVirtualized internal infrastructure using XenServer.\n•\tRetired legacy networks.",
+      "url": "https://www.linkedin.com/company/livescribe-inc-/"
+    },
+    {
+      "name": "Oakland Packaging & Supplies",
+      "position": "Systems Administrator",
+      "startDate": "2006-06-30",
+      "endDate": "2013-11-30",
+      "highlights": [],
+      "summary": "•\tDeployed monitoring infrastructure using Icinga, LogStash and Cacti.\n•\tDeployed Puppet and Foreman environments.\n•\tVirtualized entire infrastructure using XenServer, later migrated virtualized infrastructure from XenServer to VMware.\n•\tManaged Windows and Linux infrastructure and desktop environment across 3 locations.\n•\tPerformed Exchange Server migration, upgrade and administration for over 70 users. Active directory and GPO administration.\n•\tManaged and deployed E-commerce platform.",
+      "url": "",
+      "location": "richmond, california"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Diablo Valley College",
+      "area": "Computer Science",
+      "studyType": "",
+      "startDate": "2004-12-31",
+      "endDate": "2006-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jenkins",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Terraform",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "LogStash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Nagios",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Icinga",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Application Virtualization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache Mesos",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CloudFormation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Katello",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Puppet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+        "language": "English",
+        "fluency": "Fluent"
+    },
+    {
+        "language": "Portuguese (BR)",
+        "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "theme": "elegant"
+  }
+}
