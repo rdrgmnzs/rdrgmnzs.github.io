@@ -80,7 +80,8 @@
       "highlights": [
         "Scaled Kiwi app to accommodate an increase of 5 million users over the course of 1 week. Scaled Plaza app from 100 to 5,000 daily users. Scaled Chatous app from 1,000 to 5,000 daily users.",
         "Built new CI/CD infrastructure which doubled previous deployment rate. Automated release testing suite and increased testing capacity.",
-        "Configuration, deployment, and automation with Chef.\n•\tManages environment 95% built on Docker, running on Mesos.",
+        "Configuration, deployment, and automation with Chef.",
+        "Managed an environment 95% built on Docker, running on Mesos.",
         "Migrated hosted AWS environment to in-house data center.",
         "Monitoring and alerting with Sensu and PagerDuty.",
         "Utilized Jenkins for CI process reorganization.",
