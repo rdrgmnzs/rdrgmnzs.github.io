@@ -32,84 +32,118 @@
   "work": [
     {
       "name": "Pinterest",
+      "company": "Pinterest",
       "position": "Site Reliability Engineer",
       "startDate": "2017-03-31",
       "endDate": "2022-01-31",
-      "highlights": [],
-      "summary": "•\tWorked with a team to create the infrastructure required to migrate most stateless services to Docker.\n•\tBuilt Kubernetes as a scalable shared infrastructure to ease the infrastructure operational burden of developers.\n•\tContinuously working with the k8s team to provide a stable and up-to-date k8s platform. Performing multiple software version updates of the platform and supporting tools with no downtime to the users.\n•\tSetup continuous e2e integration testing infrastructure for k8s, ensuring that k8s is well tested and continues to function as expected while changes and upgrades are made to it.\n•\tDesigned and implemented chaos engineering for k8s, allowing both users and the k8s team to ensure applications on-boarding meet the requirements set by k8s.\n•\tBecame one of the owners and major contributors of the OSS project Kops which is part of the Kubernetes org, ensuring Pinterest needs are met by the project as well as giving back to the OSS community.\n•\tInterviewing, guiding and training new hires during their on boarding process.",
+      "summary": "Pinterest's mission is to bring everyone the inspiration to create a life they love. It’s the biggest dataset of ideas ever assembled, with over 200 billion recipes, home hacks, style inspiration and other ideas to try. More than 430 million people around the world use Pinterest to dream about, plan and prepare for things they want to do in life.",
+      "highlights": [
+        "Worked with a team to create the infrastructure required to migrate most stateless services to Docker.",
+        "Built Kubernetes as a scalable shared infrastructure to ease the infrastructure operational burden of developers.",
+        "Continuously working with the k8s team to provide a stable and up-to-date k8s platform. Performing multiple software version updates of the platform and supporting tools with no downtime to the users.",
+        "Setup continuous e2e integration testing infrastructure for k8s, ensuring that k8s is well tested and continues to function as expected while changes and upgrades are made to it.",
+        "Designed and implemented chaos engineering for k8s, allowing both users and the k8s team to ensure applications on-boarding meet the requirements set by k8s.",
+        "Became one of the owners and major contributors of the OSS project Kops which is part of the Kubernetes org, ensuring Pinterest needs are met by the project as well as giving back to the OSS community.",
+        "Interviewing, guiding and training new hires during their on boarding process."
+      ],
       "url": "https://www.linkedin.com/company/pinterest/",
       "location": "San Francisco Bay Area"
     },
     {
       "name": "Pinterest",
+      "company": "Pinterest",
       "position": "Site Reliability Engineer ( Contract )",
       "startDate": "2016-09-30",
       "endDate": "2017-03-31",
       "highlights": [],
+      "summary": "Pinterest's mission is to bring everyone the inspiration to create a life they love. It’s the biggest dataset of ideas ever assembled, with over 200 billion recipes, home hacks, style inspiration and other ideas to try. More than 430 million people around the world use Pinterest to dream about, plan and prepare for things they want to do in life.",
       "url": "https://www.linkedin.com/company/pinterest/",
       "location": "San Francisco, California"
     },
     {
       "name": "Robert Half Technology",
+      "company": "Robert Half Technology",
       "position": "SRE - Robert Half Technology SPS",
       "startDate": "2016-09-30",
       "endDate": "2017-03-31",
       "highlights": [],
+      "summary": "Robert Half, the world’s first and largest specialized talent solutions firm, connects opportunities at great companies with highly skilled job seekers.  We offer contract, temporary and permanent placement solutions for roles in finance and accounting, technology, marketing and creative, legal, and administrative and customer support. ",
       "url": "https://www.linkedin.com/company/robert-half-international/",
       "location": "San Francisco Bay Area"
     },
     {
       "name": "Castle Global, Inc.",
+      "company": "Castle Global, Inc.",
       "position": "DevOps Engineer",
       "startDate": "2016-03-31",
       "endDate": "2016-09-30",
-      "highlights": [],
-      "summary": "•\tScaled Kiwi app to accommodate an increase of 5 million users over the course of 1 week. Scaled Plaza app from 100 to 5,000 daily users. Scaled Chatous app from 1,000 to 5,000 daily users.\n•\tBuilt new CI/CD infrastructure which doubled previous deployment rate. Automated release testing suite and increased testing capacity.\n•\tConfiguration, deployment, and automation with Chef.\n•\tManages environment 95% built on Docker, running on Mesos.\n•\tMigrated hosted AWS environment to in-house data center.\n•\tMonitoring and alerting with Sensu and PagerDuty.\n•\tUtilized Jenkins for CI process reorganization.\n•\tDeploys Cassandra and MySQL clusters.\n•\tPerforms sharding, master/slave replication within MySQL.\n•\tStatistics gathering with Sensu and Grafana.",
+      "highlights": [
+        "Scaled Kiwi app to accommodate an increase of 5 million users over the course of 1 week. Scaled Plaza app from 100 to 5,000 daily users. Scaled Chatous app from 1,000 to 5,000 daily users.",
+        "Built new CI/CD infrastructure which doubled previous deployment rate. Automated release testing suite and increased testing capacity.",
+        "Configuration, deployment, and automation with Chef.\n•\tManages environment 95% built on Docker, running on Mesos.",
+        "Migrated hosted AWS environment to in-house data center.",
+        "Monitoring and alerting with Sensu and PagerDuty.",
+        "Utilized Jenkins for CI process reorganization.",
+        "Deploys Cassandra and MySQL clusters.",
+        "Performs sharding, master/slave replication within MySQL.",
+        "Statistics gathering with Sensu and Grafana."
+      ],
+      "summary": "Castle Global is a software program company focusing on visual intelligence problems for producing unstructured visual data.",
       "url": "",
       "location": "San Francisco, California"
     },
     {
       "name": "LiveVox",
+      "company": "LiveVox",
       "position": "Linux Systems Engineer",
       "startDate": "2014-04-30",
       "endDate": "2016-03-31",
-      "highlights": [],
-      "summary": "•\tSupported Java devs, QA teams, and interfaced directly with customers.\n•\tDeployed Katello/Foreman to greatly speed up server deployment times from 4 hours to 10 minutes. \n•\tCleaned up Puppet environment, used it for configuration, deployment, and automation of tasks.\n•\tDeployed Cassandra and MySQL clusters.\n•\tVirtualization with XenSever.\n•\tManaged AWS CloudFormation deployments.",
+      "highlights": [
+        "Supported Java devs, QA teams, and interfaced directly with customers.",
+        "Deployed Katello/Foreman to greatly speed up server deployment times from 4 hours to 10 minutes.",
+        "Cleaned up Puppet environment, used it for configuration, deployment, and automation of tasks.",
+        "Deployed Cassandra and MySQL clusters.",
+        "Virtualization with XenSever.",
+        "Managed AWS CloudFormation deployments."
+      ],
+      "summary": "LiveVox is a next-generation contact center platform that powers more than 14 billion interactions a year. We seamlessly integrate omnichannel communications, CRM, and WFO capabilities to deliver an exceptional agent and customer experience while reducing compliance risk.",
       "url": "https://www.linkedin.com/company/livevox/",
       "location": "San Francisco, California"
     },
     {
       "name": "Livescribe Inc.",
+      "company": "Livescribe Inc.",
       "position": "System Administrator",
       "startDate": "2013-11-30",
       "endDate": "2014-04-30",
-      "highlights": [],
-      "summary": "•\tVirtualized internal infrastructure using XenServer.\n•\tRetired legacy networks.",
+      "highlights": [
+        "Virtualized internal infrastructure using XenServer.",
+        "Retired legacy networks."
+      ],
+      "summary": "Livescribe brings notes, words and ideas to life. Livescribe smartpens make it easy to connect paper and pen to the digital world. Livescribe fundamentally changes the way people capture, access and share what they write, draw and hear.",
       "url": "https://www.linkedin.com/company/livescribe-inc-/"
     },
     {
       "name": "Oakland Packaging & Supplies",
+      "company": "Oakland Packaging & Supplies",
       "position": "Systems Administrator",
       "startDate": "2006-06-30",
       "endDate": "2013-11-30",
-      "highlights": [],
-      "summary": "•\tDeployed monitoring infrastructure using Icinga, LogStash and Cacti.\n•\tDeployed Puppet and Foreman environments.\n•\tVirtualized entire infrastructure using XenServer, later migrated virtualized infrastructure from XenServer to VMware.\n•\tManaged Windows and Linux infrastructure and desktop environment across 3 locations.\n•\tPerformed Exchange Server migration, upgrade and administration for over 70 users. Active directory and GPO administration.\n•\tManaged and deployed E-commerce platform.",
+      "highlights": [
+        "Deployed monitoring infrastructure using Icinga, LogStash and Cacti.",
+        "Deployed Puppet and Foreman environments.",
+        "Virtualized entire infrastructure using XenServer, later migrated virtualized infrastructure from XenServer to VMware.",
+        "Managed Windows and Linux infrastructure and desktop environment across 3 locations.",
+        "Performed Exchange Server migration, upgrade and administration for over 70 users. Active directory and GPO administration.",
+        "Managed and deployed E-commerce platform."
+      ],
+      "summary": "A company with a 30-year history in packaging, facility supply, and food service supply",
       "url": "",
-      "location": "richmond, california"
+      "location": "Richmond, California"
     }
   ],
   "volunteer": [],
-  "education": [
-    {
-      "institution": "Diablo Valley College",
-      "area": "Computer Science",
-      "studyType": "",
-      "startDate": "2004-12-31",
-      "endDate": "2006-12-31",
-      "score": "",
-      "courses": []
-    }
-  ],
+  "education": [],
   "awards": [],
   "certificates": [],
   "publications": [],
