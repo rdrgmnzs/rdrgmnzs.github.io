@@ -6,10 +6,10 @@
     "image": "",
     "email": "recruiters@rodrigomenezes.com",
     "url": "rodrigomenezes.com",
-    "summary": "Rodrigo was born in Brazil and relocated to US when he was 14. He is a Site Reliability Engineer with 10+ years of Linux Systems Administration experience. Comfortable in start-ups and established enterprises alike. Intensive hands-on experience with leading-edge DevOps tooling. Excellent communication skills, works well on a team or as a sole contributor.",
+    "summary": "Born in Brazil and relocated to the US at age 14, I am a Site Reliability Engineer with over 10 years of experience. Skilled in both startup and established corporate environments, I am always thrilled to take on new challenges. Known for my excellent communication skills, I thrive as both a team player and independent contributor.",
     "location": {
         "countryCode": "US",
-        "address": "United States"
+        "address": "San Francisco Bay Area"
     },
     "profiles": [
         {
@@ -31,23 +31,54 @@
   },
   "work": [
     {
+      "name": "Airtable",
+      "company": "Airtable",
+      "position": "Software Engineer",
+      "startDate": "2022-11-14",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Leading the development and implementation of strategies for Kubernetes reliability and scalability, including multi-cluster deployments, the adoption of node-problem-detector for automatic node issue remediation addressing critical incidents, implementation of node-local-dns-cache to address DNS issues and the introduction of multi-instance types per node group to circumvent AWS resource limits.",
+        "Spearheaded IPv6 compatibility for airtable.com, ensuring compliance with customer demands.",
+        "Implemented a Kubernetes upgrade process standardizing the upgrade path and cadence.",
+        "Designing and automating Kubernetes upgrade testing suite, reducing the risk of system incidents and ensuring smooth version transitions."
+      ],
+      "url": "https://www.linkedin.com/company/airtable",
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "Tesla",
+      "company": "Tesla",
+      "position": "Site Reliability Engineer, FleetNet Team",
+      "startDate": "2022-06-06",
+      "endDate": "2022-11-09",
+      "summary": "",
+      "highlights": [
+        "Contributed to upstream Concourse CI developments to support multi-architecture Docker image builds, facilitating broader application deployment capabilities.",
+        "Successfully migrated a critical application from a VM to Kubernetes, which is essential for the cryptographic signing of software updates dispatched to all Tesla vehicles. This migration significantly improved deployment efficiency and security.",
+        "Participated in a team effort for a major Kubernetes cluster upgrade and transitioned to new Container Network Interfaces (CNIs), contributing to enhanced network performance and reliability.",
+        "Played a pivotal role in preparing Kubernetes clusters for migration to ARM architecture, with the strategic objective of reducing operational costs."
+      ],
+      "url": "https://www.linkedin.com/company/tesla-motors/",
+      "location": "San Francisco Bay Area"
+    },
+    {
       "name": "Pinterest",
       "company": "Pinterest",
       "position": "Site Reliability Engineer",
       "startDate": "2017-03-31",
       "endDate": "2022-01-31",
-      "summary": "Pinterest's mission is to bring everyone the inspiration to create a life they love. It’s the biggest dataset of ideas ever assembled, with over 200 billion recipes, home hacks, style inspiration and other ideas to try. More than 430 million people around the world use Pinterest to dream about, plan and prepare for things they want to do in life.",
+      "summary": "",
       "highlights": [
-        "Worked with a team to create the infrastructure required to migrate most stateless services to Docker.",
-        "Built Kubernetes as a scalable shared infrastructure to ease the infrastructure operational burden of developers.",
-        "Continuously working with the k8s team to provide a stable and up-to-date k8s platform. Performing multiple software version updates of the platform and supporting tools with no downtime to the users.",
-        "Setup continuous e2e integration testing infrastructure for k8s, ensuring that k8s is well tested and continues to function as expected while changes and upgrades are made to it.",
-        "Designed and implemented chaos engineering for k8s, allowing both users and the k8s team to ensure applications on-boarding meet the requirements set by k8s.",
-        "Became one of the owners and major contributors of the OSS project Kops which is part of the Kubernetes org, ensuring Pinterest needs are met by the project as well as giving back to the OSS community.",
-        "Interviewing, guiding and training new hires during their on boarding process."
+        "Worked with a team to create the infrastructure for migrating most stateless services to Docker, enhancing service scalability and deployment efficiency.",
+        "Built and maintained a Kubernetes infrastructure, significantly reducing operational burdens for developers and ensuring a stable, up-to-date platform.",
+        "Implemented continuous end-to-end integration testing for Kubernetes, guaranteeing system reliability during updates.",
+        "Designed and implemented chaos engineering strategies to validate application resilience and compliance with Kubernetes standards.",
+        "Contributed as a major owner to the Kops OSS project within the Kubernetes organization, aligning project goals with Pinterest's needs and fostering community engagement.",
+        "Facilitated the onboarding process for new hires through interviews, mentorship, and training."
       ],
       "url": "https://www.linkedin.com/company/pinterest/",
-      "location": "San Francisco Bay Area"
+      "location": "San Francisco, California"
     },
     {
       "name": "Pinterest",
@@ -55,42 +86,27 @@
       "position": "Site Reliability Engineer ( Contract )",
       "startDate": "2016-09-30",
       "endDate": "2017-03-31",
-      "highlights": [],
-      "summary": "Pinterest's mission is to bring everyone the inspiration to create a life they love. It’s the biggest dataset of ideas ever assembled, with over 200 billion recipes, home hacks, style inspiration and other ideas to try. More than 430 million people around the world use Pinterest to dream about, plan and prepare for things they want to do in life.",
+      "highlights": [
+        "Supported development teams and assisted in migration to a new deployment tooling."
+      ],
+      "summary": "",
       "url": "https://www.linkedin.com/company/pinterest/",
       "location": "San Francisco, California"
     },
     {
-      "name": "Robert Half Technology",
-      "company": "Robert Half Technology",
-      "position": "SRE - Robert Half Technology SPS",
-      "startDate": "2016-09-30",
-      "endDate": "2017-03-31",
-      "highlights": [],
-      "summary": "Robert Half, the world’s first and largest specialized talent solutions firm, connects opportunities at great companies with highly skilled job seekers.  We offer contract, temporary and permanent placement solutions for roles in finance and accounting, technology, marketing and creative, legal, and administrative and customer support. ",
-      "url": "https://www.linkedin.com/company/robert-half-international/",
-      "location": "San Francisco Bay Area"
-    },
-    {
-      "name": "Castle Global, Inc.",
-      "company": "Castle Global, Inc.",
+      "name": "Hive",
+      "company": "Hive",
       "position": "DevOps Engineer",
       "startDate": "2016-03-31",
       "endDate": "2016-09-30",
       "highlights": [
-        "Scaled Kiwi app to accommodate an increase of 5 million users over the course of 1 week. Scaled Plaza app from 100 to 5,000 daily users. Scaled Chatous app from 1,000 to 5,000 daily users.",
-        "Built new CI/CD infrastructure which doubled previous deployment rate. Automated release testing suite and increased testing capacity.",
-        "Configuration, deployment, and automation with Chef.",
-        "Managed an environment 95% built on Docker, running on Mesos.",
-        "Migrated hosted AWS environment to in-house data center.",
-        "Monitoring and alerting with Sensu and PagerDuty.",
-        "Utilized Jenkins for CI process reorganization.",
-        "Deploys Cassandra and MySQL clusters.",
-        "Performs sharding, master/slave replication within MySQL.",
-        "Statistics gathering with Sensu and Grafana."
+        "Managed scaling operations for multiple applications, achieving rapid growth in user base and daily active users.",
+        "Developed and deployed a CI/CD infrastructure, doubling the previous deployment rate and enhancing release testing capabilities.",
+        "Oversaw a Docker-centric environment, leading efforts in configuration, deployment, and automation with Chef.",
+        "Transitioned AWS hosted environments to an in-house data center, optimizing infrastructure efficiency."
       ],
-      "summary": "Castle Global is a software program company focusing on visual intelligence problems for producing unstructured visual data.",
-      "url": "",
+      "summary": "",
+      "url": "https://www.linkedin.com/company/hiveai/",
       "location": "San Francisco, California"
     },
     {
@@ -100,46 +116,28 @@
       "startDate": "2014-04-30",
       "endDate": "2016-03-31",
       "highlights": [
-        "Supported Java devs, QA teams, and interfaced directly with customers.",
-        "Deployed Katello/Foreman to greatly speed up server deployment times from 4 hours to 10 minutes.",
-        "Cleaned up Puppet environment, used it for configuration, deployment, and automation of tasks.",
-        "Deployed Cassandra and MySQL clusters.",
-        "Virtualization with XenSever.",
-        "Managed AWS CloudFormation deployments."
+        "Supported development and QA teams, interfacing directly with customers when required.",
+        "Spearheaded virtualization initiatives, enhancing system scalability and reliability.",
+        "Managed AWS infrastructure across 2 different regions"
       ],
-      "summary": "LiveVox is a next-generation contact center platform that powers more than 14 billion interactions a year. We seamlessly integrate omnichannel communications, CRM, and WFO capabilities to deliver an exceptional agent and customer experience while reducing compliance risk.",
+      "summary": "",
       "url": "https://www.linkedin.com/company/livevox/",
       "location": "San Francisco, California"
     },
     {
-      "name": "Livescribe Inc.",
-      "company": "Livescribe Inc.",
-      "position": "System Administrator",
-      "startDate": "2013-11-30",
-      "endDate": "2014-04-30",
-      "highlights": [
-        "Virtualized internal infrastructure using XenServer.",
-        "Retired legacy networks."
-      ],
-      "summary": "Livescribe brings notes, words and ideas to life. Livescribe smartpens make it easy to connect paper and pen to the digital world. Livescribe fundamentally changes the way people capture, access and share what they write, draw and hear.",
-      "url": "https://www.linkedin.com/company/livescribe-inc-/"
-    },
-    {
-      "name": "Oakland Packaging & Supplies",
-      "company": "Oakland Packaging & Supplies",
+      "name": "Cogent Solutions & Supplies ",
+      "company": "Cogent Solutions & Supplies ",
       "position": "Systems Administrator",
       "startDate": "2006-06-30",
       "endDate": "2013-11-30",
       "highlights": [
-        "Deployed monitoring infrastructure using Icinga, LogStash and Cacti.",
-        "Deployed Puppet and Foreman environments.",
-        "Virtualized entire infrastructure using XenServer, later migrated virtualized infrastructure from XenServer to VMware.",
-        "Managed Windows and Linux infrastructure and desktop environment across 3 locations.",
-        "Performed Exchange Server migration, upgrade and administration for over 70 users. Active directory and GPO administration.",
-        "Managed and deployed E-commerce platform."
+        "Implemented comprehensive monitoring solutions.",
+        "Virtualized entire infrastructure improving systems reliability and flexibility.",
+        "Managed Windows and Linux infrastructure across 3 locations.",
+        "Managed and operated E-commerce platform."
       ],
-      "summary": "A company with a 30-year history in packaging, facility supply, and food service supply",
-      "url": "",
+      "summary": "",
+      "url": "https://www.linkedin.com/company/cogentsolutionsandsupplies/",
       "location": "Richmond, California"
     }
   ],
@@ -148,7 +146,48 @@
   "awards": [],
   "certificates": [],
   "publications": [],
-  "skills": [],
+  "skills": [
+    {
+      "keywords": [
+        "Golang",
+        "Python",
+        "Bash"
+      ],
+      "level": "Senior",
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Linux",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "XenServer",
+        "VMware"
+      ],
+      "level": "Senior",
+      "name": "Platforms"
+    },
+    {
+      "keywords": [
+        "Chef", 
+        "Puppet", 
+        "Foreman", 
+        "Sensu", 
+        "Grafana", 
+        "Icinga", 
+        "LogStash", 
+        "Cacti", 
+        "Jenkins", 
+        "Git", 
+        "Spinnaker",
+        "MySQL",
+        "Cassandra"
+      ],
+      "level": "Senior",
+      "name": "Tools"
+    }
+  ],
   "languages": [
     {
         "language": "English",
@@ -159,12 +198,25 @@
         "fluency": "Native Speaker"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Hiking"
+    },
+    {
+      "name": "Reading"
+    },
+    {
+      "name": "Woodworking"
+    },
+    {
+      "name": "Open Source"
+    }
+  ],
   "references": [],
   "projects": [],
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
-    "theme": "elegant"
+    "theme": "relaxed"
   }
 }
